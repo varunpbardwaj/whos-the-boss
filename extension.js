@@ -20,7 +20,7 @@ function activate(context) {
 	
 	statusBarItem.show();
 	
-	statusBarItem.tooltip = "An Extension for adding Owner/Boss name";
+	statusBarItem.tooltip = "An Extension for adding Boss/Author name";
 	
 	context.subscriptions.push(statusBarItem);
 }

@@ -6,7 +6,7 @@
 		"url": "https://varunbardwaj.me"
 	},
 	"publisher": "varunbardwaj",
-	"description": "An extension to add Owner/Boss name to status bar.",
+	"description": "An extension to add Boss/Author name to status bar.",
 	"icon": "logo.png",
 	"repository": {
 		"type": "git",
