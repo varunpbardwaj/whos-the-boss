@@ -14,12 +14,12 @@
 
 - Add below snippet,
 
-    `"whosTheBoss.bossName": "Whos the boss",
+    "whosTheBoss.bossName": "Whos the boss",
     <br/>
     "whosTheBoss.align": "left",
     <br/>
     "whosTheBoss.color": "#FFFFFF"
-    <br/>`
+    <br/>
 
 - Replace the values.
 
