@@ -1,0 +1,50 @@
+{
+  "name": "whos-the-boss",
+  "displayName": "Whos the boss",
+	"author": {
+		"name": "Varun Bardwaj",
+		"url": "https://varunbardwaj.me"
+	},
+	"publisher": "varunbardwaj",
+	"description": "An extension to add Owner/Boss name to status bar.",
+	"icon": "logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/varunpbardwaj/whos-the-boss.git"
+	},
+	"version": "0.0.3",
+	"engines": {
+		"vscode": "^1.49.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [ 
+       "*"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [{
+            "command": "whos-the-boss.whosTheBoss",
+            "title": "Whos the boss"
+
+		}]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "yarn run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+        "@types/vscode": "^1.49.0",
+        "@types/glob": "^7.1.3",
+        "@types/mocha": "^8.0.0",
+        "@types/node": "^12.11.7",
+        "eslint": "^7.9.0",
+        "glob": "^7.1.6",
+        "mocha": "^8.1.3",
+        "typescript": "^4.0.2",
+        "vscode-test": "^1.4.0"
+    }
+
+}
